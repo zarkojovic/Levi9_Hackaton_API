@@ -23,7 +23,7 @@ namespace ProjectASP.Implementation
 
         public string Nickname => "unauthorized";
 
-        public IEnumerable<int> AllowedUseCases => new List<int> { 1,2, 3,4,5 };
+        public IEnumerable<int> AllowedUseCases => new List<int> { 1,2, 3,4,5,6 };
 
     }
 }

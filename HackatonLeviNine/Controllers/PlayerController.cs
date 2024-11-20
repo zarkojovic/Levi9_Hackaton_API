@@ -19,6 +19,11 @@ namespace HackatonLeviNine.Controllers
             _useCaseHandler = handler;
         }
 
+        [HttpGet]
+        public ActionResult FindAll([FromServices] IFindAllPlayersQuery query)
+        {
+            return Ok(_useCaseHandler.HandleQuery(query, null));
+        }
         [HttpGet("{id}")]
         public ActionResult Details(Guid id,[FromServices] IGetPlayerQuery query)
         {

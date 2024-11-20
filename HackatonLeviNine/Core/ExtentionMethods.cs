@@ -24,6 +24,7 @@ namespace ProjectASP.API.Core
             services.AddTransient<ICreatePlayerCommand, EfCreatePlayerCommand>();
             services.AddTransient<ICreateTeamCommand, EfCreateTeamCommand>();
             services.AddTransient<IGetPlayerQuery, EfGetPlayerQuery>();
+            services.AddTransient<IFindAllPlayersQuery, EfFindAllPlayersQuery>();
             services.AddTransient<IGetTeamQuery, EfGetTeamQuery>();
             services.AddTransient<CreatePlayerValidator>();
             services.AddTransient<GetPlayerValidator>();
