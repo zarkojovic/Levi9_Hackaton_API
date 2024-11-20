@@ -115,7 +115,7 @@ namespace Implementation.UseCases.Commands.Matches
                 >= 500 and <= 999 => 40,
                 >= 1000 and <= 2999 => 30,
                 >= 3000 and <= 4999 => 20,
-                _ => 10
+                >= 5000  => 10
             };
         }
 
