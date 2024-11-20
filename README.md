@@ -101,20 +101,15 @@ The hackathon required implementing an application capable of:
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/zarkojovic/Levi9_Hackaton_API.git
    ```
 
-2. Build the project:
-   ```bash
-   dotnet build
-   ```
-
-3. Run the application:
+2. Run the application:
    ```bash
    dotnet run
    ```
 
-4. Use API endpoints (e.g., via Postman) to manage players, teams, and matches.
+3. Use API endpoints (e.g., via Postman) to manage players, teams, and matches.
 
 ---
 
