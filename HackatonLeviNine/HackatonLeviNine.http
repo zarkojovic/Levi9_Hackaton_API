@@ -1,0 +1,6 @@
+@HackatonLeviNine_HostAddress = http://localhost:5201
+
+GET {{HackatonLeviNine_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
